@@ -1,4 +1,4 @@
-import "cypress/types/cypress";
+import "cypress";
 import puppeteer from "puppeteer";
 
 export default function registerDataversePlugin(
@@ -6,8 +6,12 @@ export default function registerDataversePlugin(
   config: Cypress.PluginConfigOptions
 ) {
   on("task", {
-    async getDataverseCookies({ url, username, password }) {
-      const browser = await puppeteer.launch();
+    async getDataverseCookies({
+      url,
+      username,
+      password,
+    }: DataverseAuthOptions) {
+      const browser = await puppeteer.launch({ headless: false });
       const page = await browser.newPage();
       await page.goto(url);
 
@@ -53,4 +57,10 @@ export default function registerDataversePlugin(
       }
     },
   });
+}
+
+interface DataverseAuthOptions {
+  url: string;
+  username: string;
+  password: string;
 }

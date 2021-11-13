@@ -5,9 +5,10 @@
   "files": [
     "dist/"
   ],
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "cypress:open": "cypress open"
   },
   "keywords": [],
   "author": "",
