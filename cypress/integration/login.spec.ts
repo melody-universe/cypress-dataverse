@@ -6,4 +6,5 @@ describe("Login", () =>
       username: Cypress.env("USERNAME"),
       password: Cypress.env("PASSWORD"),
     });
+    cy.get('div[title="Dynamics 365"]');
   }));

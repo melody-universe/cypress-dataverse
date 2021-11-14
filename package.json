@@ -3,9 +3,13 @@
   "version": "0.0.2",
   "description": "",
   "files": [
-    "dist/src/"
+    "dist/",
+    "commands.d.ts",
+    "commands.js",
+    "plugins.d.ts",
+    "plugins.js"
   ],
-  "main": "dist/src/index.js",
+  "main": "dist",
   "scripts": {
     "build": "tsc",
     "cypress:open": "cypress open",

@@ -5,7 +5,7 @@ export async function getDataverseCookies(
   url: string,
   { username, password }: Credentials
 ) {
-  const browser = await puppeteer.launch({ headless: false });
+  const browser = await puppeteer.launch();
   const page = await browser.newPage();
   await page.goto(url);
 

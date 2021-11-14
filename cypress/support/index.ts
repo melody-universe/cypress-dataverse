@@ -1,3 +1,3 @@
-import { registerDataverseCommands } from "../../dist";
+import { registerDataverseCommands } from "../../commands";
 
 registerDataverseCommands();
