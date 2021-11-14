@@ -1,14 +1,14 @@
 {
   "compilerOptions": {
-    "esModuleInterop": true,
+    "declaration": true,
     "forceConsistentCasingInFileNames": true,
     "module": "CommonJS",
-    "strict": true,
-    "moduleResolution": "node",
-    "target": "ES2015",
-    "declaration": true,
+    "moduleResolution": "Node",
     "outDir": "dist",
-    "skipLibCheck": true
+    "strict": true,
+    "skipLibCheck": true,
+    "target": "ES2015",
+    "types": ["cypress"]
   },
-  "include": ["./src"]
+  "include": ["src"]
 }

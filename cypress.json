@@ -1,0 +1,6 @@
+{
+  "defaultCommandTimeout": 10000,
+  "chromeWebSecurity": false,
+  "fixturesFolder": false,
+  "responseTimeout": 60000
+}
