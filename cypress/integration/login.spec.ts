@@ -1,5 +1,3 @@
-/// <reference types="../.." />
-
 describe("Login", () =>
   it("Can login to Dataverse", () => {
     cy.login({

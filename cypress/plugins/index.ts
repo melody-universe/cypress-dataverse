@@ -1,4 +1,3 @@
-import "cypress";
 import { registerDataversePlugin } from "../../plugin";
 import { setBaseUrlFromEnv } from "./setBaseUrlFromEnv";
 

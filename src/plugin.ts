@@ -1,5 +1,4 @@
 import { getDataverseCookies } from "./getDataverseCookies";
-import { login } from "./login";
 import ".";
 import { Credentials } from "./types/Credentials";
 
