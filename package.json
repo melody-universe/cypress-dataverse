@@ -6,8 +6,8 @@
     "dist/",
     "commands.d.ts",
     "commands.js",
-    "plugins.d.ts",
-    "plugins.js"
+    "plugin.d.ts",
+    "plugin.js"
   ],
   "main": "dist",
   "scripts": {
