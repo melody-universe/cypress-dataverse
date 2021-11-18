@@ -2,6 +2,8 @@
 
 A library of custom [Cypress commands](https://docs.cypress.io/api/cypress-api/custom-commands) for building tests for Microsoft Dataverse.
 
+[Watch a full setup video here](https://youtu.be/2uLXwIQeukE)
+
 ## Installation
 
 Add `cypress-dataverse` to your project by running the following:
